@@ -3,10 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/login.css">
-    <title>Document</title>
+    <title>login</title>
 </head>
-<body>
-    hello world
+<body class="d-flex align-items-center justify-content-center">
+    <div class="login-container w-50 d-flex flex-column align-items-center justify-content-center">
+        <div class="mb-3 w-25">
+            <label for="phoneNumber" class="form-label">phoneNumber</label>
+            <input type="text" class="form-control" id="phoneNumber" placeholder="phoneNumber" autofocus>
+        </div>
+        <div class="w-25">
+            <button class="btn btn-sm btn-primary w-100">
+                send OTP
+            </button>
+        </div>
+    </div>
+    <script src="/js/bootstrap.min.js"></script>
 </body>
 </html>
