@@ -4,5 +4,5 @@
         "public"
     ],
     "ext": ".js",
-    "exec": "node ./src/server.js"
+    "exec": "node --env-file=.env ./src/server.js"
 }
