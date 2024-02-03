@@ -5,7 +5,7 @@ export function validatePhoneNumber(phoneNumber) {
             message: "phoneNumber can not be empty!!!"
         }
     }
-    if(phoneNumber.lenght != 11) {
+    if(phoneNumber.length != 11) {
         return {
             status: false,
             message: "phoneNumber lenght must be 11"

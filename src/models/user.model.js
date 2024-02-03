@@ -22,10 +22,10 @@ const userSchema = new Schema({
         type: String,
         default: null
     },
-    expireDate: {
-        type: Date,
+    generateDate: {
+        type: Number,
         default: null
-    }
+    },
   }
 });
 
